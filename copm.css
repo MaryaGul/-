@@ -1,0 +1,63 @@
+.black_back { 
+    min-height: 100vh;
+    width: 100%;
+    background: linear-gradient(60deg, rgb(177, 109, 229) 30%, rgb(110, 161, 232) 50%, rgb(134, 222, 183) 70%, rgb(240, 246, 178) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+ }
+ 
+ .start__btn {
+    width: 210px;
+    height: 60px;
+    margin-bottom: 25px;
+    cursor: pointer;
+    color: white;
+    outline: none;
+    background: #2a145e;
+    border: 1px solid white;
+    font-size: 40px;
+    font-family: 'Bubblegum Sans', cursive;
+ }
+ 
+ .account_btn {
+    width: 140px;
+    height: 35px;
+    background: #f5ffda;
+ }
+ 
+ 
+ .start__btn:hover {
+    background: #fff;
+    color: #ffbffb;
+    transition: .3s all ease;
+ }
+ 
+ .game__info {
+    margin-top: 25px;
+    font-size: 40px;
+    font-family: 'Realest', cursive;
+    color: white;
+ }
+ 
+ .board { 
+   width: 500px;
+   height: 500px;
+   display: flex;
+   flex-wrap: wrap;
+}
+
+ 
+.square {
+   width: 100px;
+   height: 100px;
+   background: #ffeacf;
+   border-color: rgb(0, 0, 0);
+   cursor: pointer;
+   font-size: 60px;
+   font-family: 'Realest', cursive;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
